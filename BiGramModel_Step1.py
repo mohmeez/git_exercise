@@ -113,3 +113,4 @@ model.fit(train_iters=10000, eval_iters=500, lr=0.001)
 outputs = model.generate(context_tokens=torch.zeros((1, 1), dtype=torch.long,
                          device=model.device), max_new_tokens=100)
 print(outputs)
+print("test")
